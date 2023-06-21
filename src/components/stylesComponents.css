@@ -1,0 +1,12 @@
+@import "rsuite/dist/rsuite.css";
+
+.navbar {
+  padding-left: 60px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(39, 36, 36);
+}
+.navbar a:hover {
+  color: rgb(82, 74, 74);
+}

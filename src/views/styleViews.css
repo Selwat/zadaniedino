@@ -1,0 +1,132 @@
+.TitleOfPage {
+  color: #fff;
+  margin: 60px;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+.TitleOfPage:hover {
+  opacity: 1;
+}
+.PageDescription {
+  color: #fff;
+  margin: 60px;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+.PageDescription:hover {
+  opacity: 1;
+}
+.ButtonOnHomePage {
+  display: flex;
+  margin-left: 60px;
+  height: 70px;
+  max-width: min-content;
+  background-color: #1675e0;
+}
+.StarIcon {
+  margin: 15px 7px;
+}
+.Home a {
+  text-decoration: none;
+}
+
+.AllProductContainer {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  margin: 10vh 30vw;
+  width: 50vw;
+}
+.AllProductTitle {
+  color: #fff;
+  margin: 10px 15px;
+  font-size: 26px;
+}
+.AlbumTile {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  color: black;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.AlbumTile:hover {
+  width: 310px;
+  margin-left: 11px;
+}
+
+.AlbumTitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.AlbumInfo {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.Divider {
+  margin-top: 16px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.AllSongsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 14vh 31vw;
+  width: 50vw;
+}
+.SelectedAlbumTitle {
+  color: #fff;
+  margin: 10px 15px;
+  font-size: 26px;
+}
+.AllSongsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+.SongTile {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  color: black;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+.SongTile:hover {
+  width: calc(100% + 13px);
+  margin: -5.5px;
+}
+.SongTitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.Divider {
+  margin-top: 16px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.DrawerBody {
+  font-size: 18px;
+}
+.buttonToBackToAlbums {
+  font-family: Apple-System, Arial, Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", STXihei, sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 0px 0px 0px 8px;
+  background-color: #f7f7fa;
+  color: black;
+  margin: 0px 0px;
+  gap: 5px;
+  float: right;
+  font-size: 18px;
+}
